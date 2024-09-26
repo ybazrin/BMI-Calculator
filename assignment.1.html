@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(healthinfo.jpg); background-size: cover; background-repeat: no-repeat;"></body>
+
+    <button class="hamburger-button" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    
+    <ul class="menu-items" id="menuItems">
+        <li><a href="file:///C:/Users/azrin/OneDrive/Dokumen/SEM4/WPA/assignment.html">Home</a></li>
+        <li><a href="#"class="current-page">Health Info</a></li>
+        <li><a href="file:///C:/Users/azrin/OneDrive/Dokumen/SEM4/WPA/BMICALCULATOR.html">BMI Calculator</a></li>
+    </ul>
+    
+    <header>
+        <h1>Health Information</h1>
+    </header>
+    <section>
+        <h2>Nutrition</h2>
+        <li>Diet: Ensure your diet includes a variety of foods from all food groups: fruits, vegetables, lean proteins, whole grains, and healthy fats.</li>
+        <li>Drink plenty of water throughout the day. Aim for at least 8 glasses.</li>
+        <li>Portion Control: Be mindful of portion sizes to avoid overeating.</li>
+        <li>limit Processed Foods: Reduce intake of processed and sugary foods. Opt for whole, unprocessed foods instead.</li>
+        <li>Healthy Snacking: Choose healthy snacks like nuts, fruits, and yogurt over chips and sweets.</li>
+    </section>
+    <section>
+        <h2>Exercise</h2>
+        <li>Aim for at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity each week1.
+        <li>Training: Include strength training exercises at least twice a week to build muscle and improve metabolism.
+        <li>Incorporate stretching and balance exercises to enhance flexibility and prevent injuries.
+        <li>Stay Active: Find ways to stay active throughout the day, like taking the stairs, walking during breaks, or doing household chores.
+        </p>
+    </section>
+    <section>
+        <h2>Common Health Issues</h2>
+        <li>Heart Disease: Maintain a healthy diet, exercise regularly, and avoid smoking. Monitor your blood pressure and cholesterol levels2.
+        <li>Diabetes: Manage your blood sugar levels through a balanced diet, regular exercise, and medication if prescribed3.
+        <li>Obesity: Focus on a healthy diet and regular physical activity. Seek support from healthcare providers if needed3.
+        <li>High Blood Pressure: Reduce salt intake, maintain a healthy weight, and engage in regular physical activity3.
+        <li>Mental Health: Practice stress management techniques like mindfulness, meditation, and regular physical activity. Seek professional help if needed.</p>
+    </section>
+    <script>
+         function toggleMenu() {
+        var menu = document.getElementById('menuItems');
+        if (menu.style.display === 'block') {
+            menu.style.display = 'none';
+        } else {
+            menu.style.display = 'block';
+        }
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+body {
+	font-family: Tahoma, sans-serif;
+    }
+
+    .hamburger-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px;
+        background-color: transparent;
+        border: none;
+    }
+    .hamburger-button span {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    .menu-items {
+        display: none;
+        list-style-type: none;
+        padding: 0;
+    }
+    .menu-items li {
+        padding: 8px 0;
+    }
+    .menu-items a {
+        text-decoration: none;
+        color: #333;
+    }
+    section {
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff; /* White background */
+    }
+    
+    form {
+        margin-top: 20px;
+    }
+    
+    .current-page {
+        color:white;
+        background-color: #f0f0f0;
+    }
+    .calculator {
+        margin-top: 20px;
+    }
+    .calculator input {
+        margin: 5px;
+    }
+    footer {
+        background-color: #000; /* Black background */
+        color: #fff; /* White text */
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    

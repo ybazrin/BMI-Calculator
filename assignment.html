@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(healthinfo.jpg); background-size: cover; background-repeat: no-repeat;"></body>
+    <div class="navbar">
+        <button class="hamburger-button" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <ul class="menu-items" id="menuItems">
+            <li><a href="file:///C:/Users/azrin/OneDrive/Dokumen/SEM4/WPA/assignment.html" class="current-page">Home</a></li>
+            <li><a href="file:///C:/Users/azrin/OneDrive/Dokumen/SEM4/WPA/assignment.1.html">Health Info</a></li>
+            <li><a href="file:///C:/Users/azrin/OneDrive/Dokumen/SEM4/WPA/BMICALCULATOR.html">BMI Calculator</a></li>
+        </ul>
+        <header>
+            <h1>Welcome to Our Site!</h1>
+            <section>
+            <p>We are delighted to have you here. Our mission is to provide you with valuable resources and insights on nutrition, exercise, and overall wellness. Whether you’re looking to improve your diet, find effective workout routines, or address common health issues, we have the information you need to lead a healthier, happier life.
+               Explore our site to discover tips, guides, and expert advice tailored to help you achieve your health and fitness goals. Join our community and take the first step towards a better you!</p>
+            </section>
+        <div class="bar-tile-container">
+            <div class="bar"></div>
+            <div class="tile"></div>
+        </div>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menuItems');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+</body>
